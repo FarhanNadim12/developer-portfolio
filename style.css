@@ -12,6 +12,16 @@ body{
     display: flex;
  
 }
+#second-content{
+    width: 90%;
+    margin: auto;
+    padding-left: 10%;
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+      display: flex;
+      background-position: right;
+   
+}
 h1{
     font-size: 50px;
 }
@@ -30,14 +40,15 @@ button{
 
 }
 #top-content img{
-width: 550px;
+width: 70%;
+
 }
-.top-first{
+.left-content{
     width: 40%;
     
     margin-right: 5%;
 }
-.top-second{
+.right-content{
     width: 40%;
     margin-top: 3%;
     margin-left: 5%;
