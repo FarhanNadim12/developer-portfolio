@@ -6,7 +6,7 @@ body{
 #top-content{
     width: 90%;
   margin: auto;
-  padding-left: 14%;
+  padding-left: 10%;
   background-image: url("images/top-banner.png");
   background-repeat: no-repeat;
     display: flex;
@@ -22,6 +22,14 @@ body{
       background-position: right;
    
 }
+#experiences{
+    width: 90%;
+display: flex;
+background-image: url(images/exp-bg.png);
+background-repeat: no-repeat;
+background-position: left;
+}
+
 h1{
     font-size: 50px;
 }
@@ -52,4 +60,31 @@ width: 70%;
     width: 40%;
     margin-top: 3%;
     margin-left: 5%;
+}
+.babyWeb{
+    width: 35%;
+    margin-left: 13%;
+    margin-top: 5%;
+    background-color: aliceblue;
+    padding: 25px 33px;
+   box-shadow: 10px 10px 25px gray;
+   margin-bottom: 50px;
+   border-left: 8px solid;
+    border-image: linear-gradient(salmon, rgb(50, 50, 255)) 27;
+    border-image-slice: 1;
+}
+.fullStack{
+    width: 35%;
+    margin-left: 14%;
+    margin-top: 5%;
+    background-color: aliceblue;
+    padding: 25px 33px;
+    box-shadow: 10px 10px 25px gray;
+    margin-bottom: 50px;
+    border-left: 8px solid;
+    border-image: linear-gradient(red, rgb(50, 50, 255)) 27;
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
